@@ -1,4 +1,4 @@
-# robotstxt.org
+Sitemap:http://techtalentsouthgraduates.com/sitemap.xml
 
 User-agent: *
-Disallow: /
+Disallow:

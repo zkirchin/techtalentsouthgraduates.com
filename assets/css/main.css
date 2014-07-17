@@ -38,7 +38,7 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 /********** BOOTSTRAP MODIFICATIONS **********/
 /* Navbar Tweaks */
 .navbar-inverse .navbar-inner {
-    background-color: #ec602f;
+    background-color: #BEBDBD;
     background-repeat: repeat-x;
 	border-color: transparent;
 	background-image: none;
@@ -56,11 +56,11 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 .navbar-inverse .nav > li > a:hover,
 .navbar-inverse .brand:focus,
 .navbar-inverse .nav > li > a:focus {
-  color: #ffffff;
+  color: #EB5F2D;
 }
 
 .navbar-inverse .brand {
-  color: #fff;
+  color: #EB5F2D;
 }
 
 .navbar-inverse .navbar-text {
@@ -69,7 +69,7 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
-  color: #ffffff;
+  color: #EB5F2D;
   background-color: transparent;
 }
 
@@ -145,7 +145,7 @@ hr {
 
 #youthcodeheader {
     width: 100%;
-    background: url(../img/youth_website_banner.png) no-repeat center center fixed;
+    background: url(../img/college-cram.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -556,4 +556,143 @@ hr {
     margin-top: -20px;
     padding-top:160px;
 }
+}
+
+.about-class-title {
+	float: left;
+	display: inline-block;
+	margin-right: 10px;
+	width: 350px;
+}
+
+.about-class-description {
+	float: right;
+	display: inline-block;
+	width: 800px;
+}
+
+.about-class-div {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+
+/* reviews */
+
+.rev-container {
+	height: 125px;
+	width: 100%;
+}
+
+.rev-img {
+	height: 125px;
+	width: 125px;
+	display: inline-block;
+	float: left;
+}
+
+.rev-name-stars-container {
+	height: 125px;
+	width: 225px;
+	display: inline-block;
+	margin-left: 20px;
+	float: left;
+}
+
+.rev-name {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #666;
+	text-align: left;
+}
+
+.rev-location-time {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #666;
+	text-align: left;
+	margin-top: -10px;
+}
+
+.rev-stars-container {
+	margin-right: auto;
+	width: 142px;
+}
+
+.rev-stars {
+	height: 25px;
+
+}
+
+.rev-divider {
+	height: 125px;
+	width: 2px;
+	background-color: #232121;
+	display: inline-block;
+	float: left;
+}
+
+.rev-paragraph {
+	height: 125px;
+	width: 750px;
+	display: inline-block;
+	float: right;
+}
+
+/* alt review style */
+
+.rev-img-alt {
+	height: 125px;
+	width: 125px;
+	display: inline-block;
+	float: right;
+}
+
+.rev-name-stars-container-alt {
+	height: 125px;
+	width: 225px;
+	display: inline-block;
+	margin-right: 20px;
+	float: right;
+}
+
+.rev-name-alt {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #666;
+	text-align: right;
+}
+
+.rev-location-time-alt {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #666;
+	text-align: right;
+	margin-top: -10px;
+}
+
+.rev-stars-container-alt {
+	margin-left: auto;
+	width: 142px;
+}
+
+.rev-divider-alt {
+	height: 125px;
+	width: 2px;
+	background-color: #232121;
+	display: inline-block;
+	float: right;
+}
+
+.rev-paragraph-alt {
+	height: 125px;
+	width: 750px;
+	display: inline-block;
+	float: left;
 }
