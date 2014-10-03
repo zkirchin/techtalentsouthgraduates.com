@@ -27,7 +27,7 @@ h3{margin-bottom:1px}
 h5{text-align:center}
 p{
 	margin-bottom:20px;
-	font-family: 'Poly', serif;
+	font-family:'Droid Serif', Georgia, serif;
 	font-size:16px;
 }
 a{text-decoration:none}
@@ -56,11 +56,11 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 .navbar-inverse .nav > li > a:hover,
 .navbar-inverse .brand:focus,
 .navbar-inverse .nav > li > a:focus {
-  color: #EB5F2D;
+  color: #f79027;
 }
 
 .navbar-inverse .brand {
-  color: #EB5F2D;
+  color: #f79027;
 }
 
 .navbar-inverse .navbar-text {
@@ -69,7 +69,7 @@ h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size
 
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
-  color: #EB5F2D;
+  color: #f79027;
   background-color: transparent;
 }
 
@@ -222,7 +222,7 @@ hr {
 #servicewrap h2 {
 	text-align:left;
 	margin-left:5px;
-	border-left:10px #ec602f solid;
+	border-left:10px #f79027 solid;
 	padding-left:3px;
 }
 
@@ -249,7 +249,7 @@ hr {
 #aboutwrap h2 {
 	text-align:left;
 	margin-left:5px;
-	border-left:10px #ec602f solid;
+	border-left:10px #f79027 solid;
 	padding-left:3px;
 }
 
@@ -257,7 +257,7 @@ hr {
 	font-family: 'Open Sans Condensed', sans serif;
 	font-weight:400;
 	font-size:30px;
-	color:#ec602f;
+	color:#f79027;
 }
 
 #aboutwrap h4 {
@@ -288,9 +288,9 @@ hr {
 	margin-top:150px;
 	clear: both;
 	opacity: 1;
-	background: #ec602f;
-	background: rgb(225,112,75);
-	background: rgba(225,112,75, 0.95);
+	background: #f79027;
+	background: rgb(247, 144, 39);
+	background: rgba(247, 144, 39, 0.95);
 }
 
 #projectwrap h1 {
@@ -305,7 +305,7 @@ hr {
 #projectwrap_2 h2 {
 	text-align:left;
 	margin-left:5px;
-	border-left:10px #ec602f solid;
+	border-left:10px #f79027 solid;
 	padding-left:3px;
 }
 
@@ -313,7 +313,7 @@ hr {
 	font-family: 'Open Sans Condensed', sans serif;
 	font-weight:400;
 	font-size:30px;
-	color:#ec602f;
+	color:#f79027;
 	text-align:center;
 }
 
@@ -338,7 +338,7 @@ hr {
 #footerwrap h2 {
 	text-align:left;
 	margin-left:5px;
-	border-left:10px #ec602f solid;
+	border-left:10px #f79027 solid;
 	padding-left:3px;
 	margin-bottom:40px;
 	color:#fff;
@@ -348,7 +348,7 @@ hr {
 	font-family: 'Open Sans Condensed', sans serif;
 	font-weight:400;
 	font-size:30px;
-	color:#ec602f;
+	color:#f79027;
 	text-align:center;
     margin:5px;
 }
@@ -533,7 +533,7 @@ hr {
 }
 
 .pricing-column li.pricing-price {
-	color:#ec602f;
+	color:#f79027;
 	font-size: 200%;
 	line-height: 120%;
 }
@@ -624,7 +624,7 @@ hr {
 }
 
 .rev-stars {
-	height: 25px;
+	height: 24px;
 
 }
 
@@ -696,3 +696,8 @@ hr {
 	display: inline-block;
 	float: left;
 }
+
+/*@media (max-width: 767px) {
+   .rev-container {
+   	background-color: red;
+}*/
