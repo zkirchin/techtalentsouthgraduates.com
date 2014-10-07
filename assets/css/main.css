@@ -607,6 +607,7 @@ hr {
 	font-size: 30px;
 	color: #666;
 	text-align: left;
+	line-height: 110%;
 }
 
 .rev-location-time {
@@ -697,7 +698,31 @@ hr {
 	float: left;
 }
 
-/*@media (max-width: 767px) {
-   .rev-container {
-   	background-color: red;
-}*/
+.margin {
+	margin-top: 5px;
+}
+
+#alternate {
+	float: right;
+}
+
+@media (max-width: 767px) {
+   #alternate {
+   		float: left;
+   }
+   .rev-name-alt{
+   		text-align: left;
+   }
+   .rev-location-time-alt{
+   		text-align: left;
+   }
+
+   .rev-stars-container-alt {
+		margin-right: auto;
+		margin-left: 0;
+	}
+
+	img.pic {
+		width:100%;
+	}
+}
